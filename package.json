@@ -1,0 +1,18 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Project-Atlaz/core.git",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
+    "jest": "^30.1.2",
+    "ts-jest": "^29.4.1",
+    "ts-morph": "^26.0.0",
+    "typescript": "^5.9.2"
+  }
+}

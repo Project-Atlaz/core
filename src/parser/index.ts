@@ -1,5 +1,5 @@
 import { Project, SourceFile } from 'ts-morph'
-import path = require('node:path')
+import path from 'node:path'
 
 interface DependencyGraph {
     [filePath: string]: {

@@ -45,7 +45,6 @@ cache/
 **/cache/
 .npm/
 .yarn/
-yarn.lock
 
 # Build Output
 build/

@@ -44,7 +44,6 @@ packages/
 cache/
 **/cache/
 .npm/
-.yarn/
 
 # Build Output
 build/

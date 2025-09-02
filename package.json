@@ -2,12 +2,16 @@
   "name": "core",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/Project-Atlaz/core.git",
   "scripts": {
     "test": "jest",
     "lint": "eslint --ext .ts src/ --fix",
     "format": "prettier --write \"src/**/*.ts\"",
     "prepare": "husky"
+  },
+  "bin": {
+    "atlas": "dist/cli/index.js"
   },
   "license": "MIT",
   "devDependencies": {
@@ -23,17 +27,17 @@
     "prettier": "^3.6.2",
     "ts-jest": "^29.4.1",
     "ts-morph": "^26.0.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0",
+    "yargs": "^18.0.0"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.42.0",
     "@typescript-eslint/parser": "^8.42.0",
     "chalk": "^5.6.0",
     "eslint": "^9.34.0",
-    "memfs": "^4.38.2",
-    "winston": "^3.17.0",
-    "winston-daily-rotate-file": "^5.0.0",
-    "yargs": "^18.0.0"
+    "memfs": "^4.38.2"
   },
   "packageManager": "yarn@4.9.4",
   "lint-staged": {

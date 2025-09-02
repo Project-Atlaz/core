@@ -2078,6 +2078,8 @@ __metadata:
     winston: "npm:^3.17.0"
     winston-daily-rotate-file: "npm:^5.0.0"
     yargs: "npm:^18.0.0"
+  bin:
+    atlas: dist/cli/index.js
   languageName: unknown
   linkType: soft
 
